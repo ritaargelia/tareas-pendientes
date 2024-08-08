@@ -1,0 +1,93 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background: rgb(216,215,246);
+background: linear-gradient(332deg, rgba(216,215,246,1) 26%, rgba(238,212,242,1) 61%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    color: #7D8ABC;
+    display: flex;
+    justify-content: center;
+}
+.contenedor{
+    
+    background-color: bisque;
+    max-width: 80%;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 60px;
+}
+.encabezado{
+    color: #7D8ABC;
+    padding: 10px 40px 15px 0;
+}
+.agregar{
+    background-color: aliceblue;
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 220px;
+}
+.agregar input{
+    width: 200%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    padding-left: 10px;
+}
+.agregar input::placeholder{
+    font-size: 1.1rem;
+    color: #7D8ABC;    
+}
+.agregar i{
+    font-size: 40px;
+}
+.agregar i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.tareas h2{
+    margin-bottom: 20px;
+}
+.tareas li{
+    background-color: #7D8ABC;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 1.1rem;
+    color: antiquewhite;
+    margin: 5px 8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tareas{
+    font-size: 20px;    
+}
+.tareas p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.tareas i:hover{
+    color:rgb(196, 152, 209);
+    cursor: pointer;
+    font-size: 40px;
+}
+.tachado{
+    text-decoration: line-through;
+    color: antiquewhite;
+}
